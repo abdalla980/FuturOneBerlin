@@ -1,0 +1,23 @@
+.Ourapproach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    padding-top: 3rem;
+    color: white;
+    font-family: "Agency FB";
+    font-size: 4rem;
+}
+.approachImage {
+    width: 80%;
+    height: 25rem;
+}
+.ourapproachtext{
+    color: white ;
+    width: 35rem;
+    font-family: Perpetua;
+    font-size: 1.7rem;
+
+}

@@ -1,0 +1,80 @@
+.OurTeam{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 1.5rem;
+    flex-direction:column ;
+    color: white;
+
+}
+.Title{
+    font-size: 4rem;
+    color: white;
+    font-family: "Agency FB";
+}
+.Socialsbtn{
+    border-radius: 5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-style: none;
+        /*column-gap:1rem ;*/
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.Linkedinbtn{
+    border-radius: 5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-style: none;
+    /*column-gap:1rem ;*/
+    margin-top: 0.5rem;
+    gap: 16px;
+}
+.Websitebtn{
+    border-radius: 5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-style: none;
+    /*column-gap:1rem ;*/
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.NGObtn{
+    border-radius: 5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-style: none;
+    /*column-gap:1rem ;*/
+    margin-top: 0.5rem;
+    gap: 16px;
+}
+
+.OurTeam h3{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: -2.0rem;
+    font-style: italic;
+    font-family: Perpetua
+}
+.OurTeam p{
+    width: 60rem;
+    font-family: Perpetua;
+}
+/*fix buttons try add  images for the footers n pages play with fonts, wider text ,
+ find icons for footer too try and add links to all buttons*/
