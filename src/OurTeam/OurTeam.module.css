@@ -14,9 +14,9 @@
 }
 .Socialsbtn{
     border-radius: 5rem;
-    width: 8rem;
+    width: 10rem;
     height: 2rem;
-    background-color: #f3f3f3;
+    background:linear-gradient(silver,white,grey);
     color: black;
     font-size: 1.3rem;
     font-weight: bolder;
@@ -27,9 +27,9 @@
 }
 .Linkedinbtn{
     border-radius: 5rem;
-    width: 8rem;
+    width: 10rem;
     height: 2rem;
-    background-color: #f3f3f3;
+    background:linear-gradient(silver,white,grey);
     color: black;
     font-size: 1.3rem;
     font-weight: bolder;
@@ -40,9 +40,9 @@
 }
 .Websitebtn{
     border-radius: 5rem;
-    width: 8rem;
+    width: 10rem;
     height: 2rem;
-    background-color: #f3f3f3;
+    background:linear-gradient(silver,white,grey);
     color: black;
     font-size: 1.3rem;
     font-weight: bolder;
@@ -53,9 +53,9 @@
 }
 .NGObtn{
     border-radius: 5rem;
-    width: 8rem;
+    width: 10rem;
     height: 2rem;
-    background-color: #f3f3f3;
+    background:linear-gradient(silver,white,grey);
     color: black;
     font-size: 1.3rem;
     font-weight: bolder;
@@ -76,5 +76,81 @@
     width: 60rem;
     font-family: Perpetua;
 }
-/*fix buttons try add  images for the footers n pages play with fonts, wider text ,
- find icons for footer too try and add links to all buttons*/
+@media (max-width: 768px) {
+    .Title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .OurTeam h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .OurTeam h3 {
+        font-size: 1.2rem;
+        margin-top: -1.5rem;
+        text-align: center;
+    }
+
+    .OurTeam p {
+        width: 90%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .buttonsdiv,
+    .buttonsddiv {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    .Socialsbtn,
+    .Linkedinbtn,
+    .Websitebtn,
+    .NGObtn {
+        width: 6rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* --------------------- MOBILE --------------------- */
+@media (max-width: 480px) {
+    .Title {
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .OurTeam h2 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .OurTeam h3 {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .OurTeam p {
+        width: 95%;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .Socialsbtn,
+    .Linkedinbtn,
+    .Websitebtn,
+    .NGObtn {
+        width: 5.5rem;
+        height: 1.8rem;
+        font-size: 0.9rem;
+    }
+}

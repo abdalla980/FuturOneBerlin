@@ -51,3 +51,58 @@
 
 
 }
+/* --------------------- TABLET --------------------- */
+@media (max-width: 768px) {
+    .AboutUs h1,
+    .ourPurpose h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .AboutUs p,
+    .ourPurpose p {
+        width: 90%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0 1rem;
+    }
+
+    .Circles {
+        width: 300px;
+        height: 300px;
+    }
+
+    .roistuff {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* --------------------- MOBILE --------------------- */
+@media (max-width: 480px) {
+    .AboutUs h1,
+    .ourPurpose h1 {
+        font-size: 2rem;
+    }
+
+    .AboutUs p,
+    .ourPurpose p {
+        font-size: 1rem;
+        width: 95%;
+        margin: 0.5rem;
+    }
+
+    .Circles {
+        width: 200px;
+        height: 200px;
+    }
+
+    .roistuff {
+        flex-direction: column;
+        gap: 0.8rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
