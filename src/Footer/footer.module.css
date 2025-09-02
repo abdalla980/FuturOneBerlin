@@ -97,13 +97,12 @@ margin-top: 5rem;
     }
 
     .right img {
-        width: 25px; /* smaller icons */
-        height: 25px;
         cursor: pointer;
     }
+
     .emailIcon{
-        width: 1rem;
-        height: 1rem;
+        width: 2rem;
+        height: 2rem;
     }
 }
 

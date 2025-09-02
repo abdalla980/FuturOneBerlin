@@ -29,8 +29,8 @@ export const Footer = () => {
                 <h3>Stay in Contact</h3>
                 <div className={styles.images}>
                     <img onClick={GotoEmails} className={styles.emailIcon} src={"email.png"}/>
-                    <img onClick={goTosocials} src={"instagram.png"}/>
-                    <img onClick={GotoKimberlyLinkedin} src={"linkedin.png"}/>
+                    <img onClick={goTosocials}  className={styles.emailIcon} src={"instagram.png"}/>
+                    <img onClick={GotoKimberlyLinkedin}  className={styles.emailIcon} src={"linkedin.png"}/>
 
                 </div>
 
